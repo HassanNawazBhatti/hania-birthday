@@ -155,6 +155,11 @@
         </div>
     </div>
 
+
+    <audio id="bgMusic" autoplay loop>
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+
 </body>
 <script>
     let datetxt = "14 FEB";
@@ -183,6 +188,12 @@
             }
         }, 100)
     }, 12000)
+
+    document.addEventListener("click", function () {
+    const music = document.getElementById("bgMusic");
+    music.play();
+}, { once: true });
+
 
     var intervalContent;
     var intervalTitle;
