@@ -887,7 +887,7 @@ body {
     height: calc(100%);
 }
 .boxMail .boxMail-container .card1 h3{
-    font-family: 'Dancing Script', cursive;
+    font-family:  cursive;
     font-size: 40px;
     text-transform: uppercase;
     width: 80%;
@@ -915,7 +915,7 @@ body {
     background-color: #FF7882;
     transition: all 1s;
     overflow: hidden;
-    font-family: "Inter", serif;
+    font-family: cursive;
     color: #fff;
 }
 .boxMail .boxMail-container:hover .card2-content{
